@@ -14,17 +14,17 @@
 ### Screenshot
 
 ![](./screenshots/sc.jpg)
-![](./screenshot/sc1.jpg)
+![](./screenshots/sc1.jpg)
 
 ### Links
 
-- Solution URL: [https://github.com/ErysCode7/todolist-app](https://github.com/ErysCode7/todolist-app)
+- Solution URL: [https://github.com/ErysCode7/cocktails](https://github.com/ErysCode7/cocktails)
 - Live Site URL: [https://todolist-app-nu.vercel.app/](https://todolist-app-nu.vercel.app/)
 
 1. Clone the repo
 
    ```sh
-   git clone git@github.com:ErysCode7/todolist-app.git
+   git clone git@github.com:ErysCode7/cocktails.git
    ```
 
 2. Install NPM packages
