@@ -29,9 +29,11 @@
     flex: 2;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
     &_text {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 0.5rem;
 

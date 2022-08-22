@@ -19,7 +19,7 @@
 ### Links
 
 - Solution URL: [https://github.com/ErysCode7/cocktails](https://github.com/ErysCode7/cocktails)
-- Live Site URL: [https://todolist-app-nu.vercel.app/](https://todolist-app-nu.vercel.app/)
+- Live Site URL: [https://cocktails-omega.vercel.app/](https://cocktails-omega.vercel.app/)
 
 1. Clone the repo
 

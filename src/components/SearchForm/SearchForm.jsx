@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { useAppContext } from "../../context/AppContext";
 import "./SearchForm.scss";
 
@@ -7,9 +7,9 @@ const SearchForm = () => {
 
   const searchValue = useRef("");
 
-  useEffect(() => {
-    searchValue.current.focus();
-  }, []);
+  // useEffect(() => {
+  //   searchValue.current.focus();
+  // }, []);
 
   const searchCocktail = () => {
     setSearch(searchValue.current.value);
