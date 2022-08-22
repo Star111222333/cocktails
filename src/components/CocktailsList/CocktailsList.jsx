@@ -39,6 +39,7 @@ const CocktailsList = () => {
               flexWrap: "wrap",
               gap: "2rem",
               marginTop: "50px",
+              paddingBottom: "2rem",
             }}
           >
             {cocktails.drinks.map((cocktail) => (
