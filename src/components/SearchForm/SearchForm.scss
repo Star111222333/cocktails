@@ -1,0 +1,32 @@
+.cocktails-app__form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 1rem;
+  border-radius: 0.25rem;
+
+  @media (max-width: 800px) {
+    width: 80%;
+  }
+
+  &-title {
+    margin-bottom: 1rem;
+    font-weight: 700;
+
+    @media (max-width: 600px) {
+      font-size: 1rem;
+    }
+  }
+
+  &-searchform {
+    &_input {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: #f2f2f2;
+      border-radius: 0.25rem;
+      padding: 1rem 0.5rem;
+    }
+  }
+}

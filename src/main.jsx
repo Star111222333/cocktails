@@ -2,9 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
+import { AppContextProvider } from "./context/AppContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
-    <App />
+    <AppContextProvider>
+      <App />
+    </AppContextProvider>
   </Router>
 );

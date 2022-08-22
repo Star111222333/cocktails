@@ -1,0 +1,32 @@
+.cocktail-app__erropage {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  &-title {
+    font-size: 3.75rem;
+
+    @media (max-width: 400px) {
+      font-size: 3.5rem;
+    }
+  }
+
+  &-text {
+    font-size: 1.25rem;
+
+    @media (max-width: 400px) {
+      font-size: 1rem;
+    }
+  }
+
+  &-btn {
+    border: none;
+    outline: none;
+    background-color: #999;
+    color: #f5f6f7;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+}
